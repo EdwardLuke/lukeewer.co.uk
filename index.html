@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<title>Luke Ewer</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/frame.css">
+		<link rel="stylesheet" type="text/css" href="css/device.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+		<link rel="alternate stylesheet" type="text/css" href="css/colours3.css">
+		<link rel="alternate stylesheet" type="text/css" href="css/colours2.css">
+		<link rel="stylesheet" type="text/css" href="css/colours1.css">
+
+		<style>
+			.notice {
+				display: none !important;
+				height: 26rem;
+				display: flex;
+				align-items: center;
+				justify-items: center;
+			}
+
+			.under-construction {
+				position: absolute;
+				left: 0;
+				right: 0;
+				height: 18rem;
+				text-align: center;
+				background-image: url(img/under-construction-yellow.png);
+				background-position: center;
+				background-size: 1280px;
+				border-top: 0;
+				z-index: 1;
+				pointer-events: none;
+				opacity: 0.9;
+			}
+
+			.notice h2 {
+				width: 100%;
+				text-align: center;
+				font-family: 'Lato', sans-serif;
+				font-weight: 900;
+				font-size: 4.4rem;
+				text-transform: uppercase;
+			}	
+		</style>
+	</head>
+	
+	<body>
+		<header>
+			<div class="logo"><a href="http://lukeewer.co.uk"><h1>&amp;</h1></a></div>
+			<nav>
+				<ol>
+					<li><a href="index.html" class="current-page">Home</a></li>
+					<li><a href="portfolio.html">Work</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ol>
+			</nav>
+		</header>
+
+		<main>
+			<section class="tagline">
+				<h1>I&rsquo;m a <span class='emphasis'>fledgling</span> web developer with a passion for turning great ideas into beautiful code.</h1>
+			</section>
+			<section class="notice">
+				<div class="under-construction"></div>
+				<h2 class="emphasis">Under Construction</h2>
+				<!--
+				<p style="font-family: courier; text-transform: none; font-size: 0.8rem;">Beware unclosed tags and browser quirks.</p>
+				<p style="font-family: courier; text-transform: none; font-size: 0.8rem;">Hard hats must be worn at all times.</p>
+				-->
+			</section>
+			<section>
+				<article class="panels">
+					<div>
+						<h3>I,</h3>
+						<p>having spent the past year beginning my journey of <span class="emphasis">learning</span> the languages and tools every aspiring web developer needs to know, have experience building <span class="emphasis">simple</span> sites from start to finish and improving existing services. </p>
+					</div>
+					<div>
+						<h3>You,</h3>
+						<p>being concerned about improving your web-presence, might be imagining a site that <span class="emphasis">shows off</span> your latest work as a writer, or want new functionality service <span class="emphasis">seamlessly</span> integrated into an existing serivce.</p>
+					</div>
+					<div>
+						<h3>We,</h3>
+						<p>can chat if you'd like to talk more about a project you have in mind, are looking to hire an enthusiastic dev or just want to talk shop - <a href="contact.html">drop me a line</a>.</p>
+					</div>
+				</article>
+			</section>
+			<section class="blog-posts">
+				<header>
+					<h2>Latest Post</h2>
+				</header>
+				<article class="blog-post">
+					<header>
+						<h3>First Words</h3>
+					</header>
+					<p>
+					I am currently working on my new website, which I'll be using as a showcase for my previous work, a place to blog from and a place to practice any new skills I'm learning. If you're reading this, you're already looking at it.
+					</p>
+					<p>
+					If you come back in a little while, you'll see a new blog post where I'll be going over the design and development descisions that went into making this site, and how I've implemented various bits of front-end and back-end &mdash; in case you're interested in the 'how and why' of the final product.
+					</p>
+					<p>
+					<a href="blog.html"> Read more&hellip;</a>
+					</p>
+				</article>
+			</section>
+			<section>
+				<header>						
+					<h2>Latest Project</h2>
+				</header>
+				<article class="portfolio-item">
+                    <header class="portfolio-header">
+                        <h3><a href="http://lucyejwoods.co.uk">lucyejwoods.co.uk</a></h3>
+                    </header>
+                    <div class="portfolio-content">
+                        <div class="screenshot">
+                            <img src="img/portfolio-logos/lucyejwoods.co.uk.png" width="100%" height="auto" alt="lucyejwoods.co.uk screenshot">
+                        </div>
+                        <div class="project-description">
+                            <p>This project was undertaken at the bequest of Lucy Woods, an established energy and environment journalist.</p>
+                            <p>The original purpose of the site was to act as a platform upon which Lucy's best articles could be showcased. The site would need to act both as a business card and a portfolio. To this end, a single-page site with an always-visible bio and contact details panel would sit aside a timeline of published works.</p>
+                            <p>Since the original brief, the scope of the site has since expanded to include a (currently rudimentary) bespoke blogging platform.</p>
+                            <p>The blogging platform is currently undergoing the final stages of deployment. The next stage of the site will involve combiing Lucy's various social media feeds into a single timeline</p>
+                            <p>An extensive case study of this project can be read in <a href="" style="border-color: #404040; color: #404040;">this</a> (coming soon) blog post.
+                        </div>
+                    </div>
+                </article>
+			</section>
+			<section class="social">
+				<h2>Track Me Down</h2>
+				<article>
+					<header>
+						<h3>Social Media</h3>
+					</header>
+					<a class="social-item" href="https://twitter.com/EdwardLuke" title="Twitter"><i class="fa fa-twitter" alt="Twitter"></i></a>
+					<a class="social-item" href="https://www.last.fm/user/EdwardLuke" title="LastFM"><i class="fa fa-lastfm" alt="LastFM"></i></a>
+					<a class="social-item" href="https://github.com/EdwardLuke7" title="GitHub"><i class="fa fa-github-alt" alt-"GitHub"></i></a>
+					<a class="social-item" href="https://open.spotify.com/user/edwardluke" title="Spotify"><i class="fa fa-spotify" alt="Spotify"></i></a>
+					<a class="social-item" href="https://flickr.com/photos/126786623@N06" title="Flickr"><i class="fa fa-flickr" alt="Flickr"></i></a>
+				</article>
+			</section>
+
+			</div>
+		</main>	
+
+		<footer>
+			<h5>&copy; 2016 Luke Ewer</h5>
+			<nav>
+				<ol>
+					<li><a href="#">Up</a></li>
+					<li><a href="portfolio.html">Work</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ol>
+			</nav>
+		</footer>
+
+	</body>
+</html>

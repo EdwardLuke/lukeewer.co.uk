@@ -1,0 +1,50 @@
+/*Clean layout defaults*/
+html, body, div, span, applet, object, iframe,
+blockquote, pre, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, h1, h2, h3, h4, 
+h5, h6, p, a, tr, th, td, body:before {
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/*Default sizing*/
+body {
+	font-family: sans-serif;
+	font-size: 12pt;
+	font-weight: normal;
+}
+
+/*Font sizing and weighting*/
+h1, h2, h3, h4, h5, h6, p, a, th, td, li, label, textarea, input {
+	font-weight: inherit;
+	font-size: 12pt;
+}
+
+/*IE9 HTML5 Element Handling*/
+header, section, footer, aside, nav, article, figure, figcaption, main {
+	display: block;
+}
+
+/*Clean anchor styling*/
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+	border: none;
+}

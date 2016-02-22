@@ -1,0 +1,41 @@
+body {
+	background-color: #fffff0;
+	color: #404040;
+}
+
+::selection {
+    color: #202020;
+    background-color: #f8d411;
+}
+
+.emphasis {
+	color:  rgb(254, 60, 10);
+}
+
+.emphasis::selection {
+	color:  #f8d411;
+}
+
+body > header {
+	color: #404040;
+}
+
+body > header nav  a:hover {
+	color:  rgb(254, 60, 10);
+}
+
+main a {
+	border-bottom: 	rgb(254, 60, 10) 4px solid;
+}
+
+a:hover {
+	color:  rgb(254, 60, 10);
+}
+
+a {
+	color: #404040;
+}
+
+section {
+	border-top: solid rgb(254, 60, 10) 4px;
+}

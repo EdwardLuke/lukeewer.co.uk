@@ -1,0 +1,51 @@
+INDEX {
+	main title - 'Luke Ewer \n Front End Web Developer';
+	tagline - 'Currently a freelancer, I am looking...';
+	blog - 2/3rds left, latest three posts;
+	
+	FULL-FOOTER{};
+}	
+
+ABOUT {
+	INTERESTS {
+		no words, icons/images only;
+	}
+
+	CV {
+		languages w/ proficiency levels;
+		pdf version download;
+	}
+
+	FOOTER{};
+}
+
+BLOG {
+	blog posts;
+	sort controls;
+	search;
+	
+	FOOTER{};
+}
+
+PORTFOLIO {
+	grid of selected works - status lights (live/archived);
+	
+	FOOTER{};
+}
+
+CONTACT {
+	form - freelance request;
+	contact details - phone, email, location;
+	
+	FULL-FOOTER{};
+}
+
+FULL-FOOTER {	
+	social media links - 1/3rd right, six;
+
+	FOOTER{};
+}
+
+FOOTER {
+	name - 'Luke Ewer';
+}
