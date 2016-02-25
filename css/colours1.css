@@ -66,3 +66,15 @@ a {
 article + article {
 	border-top-color: white
 }
+
+.portfolio-item-status.live {
+    color: limegreen;
+}
+
+.portfolio-item-status.pending {
+    color: red;
+}
+
+.portfolio-item-status.archived {
+    color: grey;
+}
