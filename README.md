@@ -9,3 +9,4 @@
 - Add social media aggregation page
 - Add stats tracking page for website
 - Add github activity tracking page
+- Implement CSS `font-display`
